@@ -95,3 +95,4 @@ jobs:
             podman run -d --name pythod-crud --network host ${{ vars.DOCKERHUB_USERNAME }}/pythod-crud:latest
             echo "Container has been deployed successfully!"
 
+ 
