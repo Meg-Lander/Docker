@@ -47,7 +47,7 @@ jobs:
   deploy:
     needs: test
     runs-on: self-hosted
-
+    
     steps:
       - name: Checkout master branch
         uses: actions/checkout@v4
